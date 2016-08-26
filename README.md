@@ -1,6 +1,6 @@
-# Omniauth::MicrosoftGraphLogin
+# Omniauth::MicrosoftV2Auth
 
-Microsoft Graph OAuth2 Strategy for OmniAuth.
+Microsoft V2 OAuth2 Strategy for OmniAuth.
 Can be used to authenticate with Microsoft Services and get a token for the Microsoft Graph Api.
 
 ## Installation
@@ -8,7 +8,7 @@ Can be used to authenticate with Microsoft Services and get a token for the Micr
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'omniauth-microsoft_graph_login'
+gem 'omniauth-microsoft_v2_auth'
 ```
 
 And then execute:
@@ -17,12 +17,12 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install omniauth-microsoft_graph_login
+    $ gem install omniauth-microsoft_v2_auth
 
 ## Usage
 
 ```ruby
 Rails.application.config.middleware.use OmniAuth::Builder do
-  provider :microsoft_graph, ENV['AZURE_APPLICATION_CLIENT_ID'], ENV['AZURE_APPLICATION_CLIENT_SECRET']
+  provider :microsoft_v2_auth, ENV['AZURE_APPLICATION_CLIENT_ID'], ENV['AZURE_APPLICATION_CLIENT_SECRET']
 end
 ```

@@ -1,2 +1,2 @@
-require "omniauth/microsoft_graph_login/version"
-require "omniauth/strategies/microsoft_graph_login"
+require "omniauth/microsoft_v2_auth/version"
+require "omniauth/strategies/microsoft_v2_auth"
