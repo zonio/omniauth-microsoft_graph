@@ -1,6 +1,6 @@
 $:.push File.dirname(__FILE__) + '/../lib'
 
-require 'omniauth-microsoft_graph'
+require 'omniauth-microsoft_graph_login'
 require 'sinatra'
 require 'json'
 
